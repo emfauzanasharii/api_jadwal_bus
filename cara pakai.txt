@@ -1,0 +1,13 @@
+1. untuk melihat semua jadwal bus :http://localhost/trayek/api/jadwal
+2. untuk melihat bedasarkan waktu, terminal tujuan, bus :http://localhost/trayek/api/jadwal/search
+ (nb : key name "search", untuk parameter pencarian adalah : id hari, id bus, dan id terminal tujuan.)
+3. untuk tambah terminal :http://localhost/trayek/api/terminal/tambah
+ (nb: key name "nama" untuk nama terminal, hanya memasaukan nama, id di generate otomatis oleh sistem.)
+4. untuk get bus :http://localhost/trayek/api/bus/bus
+5. untuk menambah jadwal bus :http://localhost/trayek/api/jadwal/simpan
+(nb : key name "bus" untuk id bus, "asal" untuk id terminal asal, "tujuan" untuk id terminal tujuan, "hari" untuk id hari, "Berangkat" untuk jam berangkat, "tiba" untuk jam tiba)
+6. untuk tambah bus : http://localhost/trayek/api/bus/tambah
+ (nb: key name "nama" untuk nama bus, id di generate otomatis oleh sistem, "filefoto" untuk menambah foto.).
+7. untuk menghapus bus : http://localhost/trayek/api/bus/hapus
+ (nb : key name "bus_id" )
+ 
